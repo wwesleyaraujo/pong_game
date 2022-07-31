@@ -4,4 +4,19 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+Ball	main.cpp	/^struct Ball {$/;"	s	file:
+Draw	main.cpp	/^	void Draw (){$/;"	f	struct:Paddle
+Draw	main.cpp	/^	void Draw() {$/;"	f	struct:Ball
+GetRect	main.cpp	/^	Rectangle GetRect(){$/;"	f	struct:Paddle
+Paddle	main.cpp	/^struct Paddle {$/;"	s	file:
+height	main.cpp	/^        int width, height;$/;"	m	struct:Paddle	file:
 main	main.cpp	/^int main(void)$/;"	f
+radius	main.cpp	/^	float radius;$/;"	m	struct:Ball	file:
+speed	main.cpp	/^	int speed;$/;"	m	struct:Paddle	file:
+speedX	main.cpp	/^	float speedX, speedY;$/;"	m	struct:Ball	file:
+speedY	main.cpp	/^	float speedX, speedY;$/;"	m	struct:Ball	file:
+width	main.cpp	/^        int width, height;$/;"	m	struct:Paddle	file:
+x	main.cpp	/^	float x,y;$/;"	m	struct:Ball	file:
+x	main.cpp	/^	float x,y;$/;"	m	struct:Paddle	file:
+y	main.cpp	/^	float x,y;$/;"	m	struct:Ball	file:
+y	main.cpp	/^	float x,y;$/;"	m	struct:Paddle	file:
